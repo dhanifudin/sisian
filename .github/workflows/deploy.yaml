@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Running SSH actions
-        uses: appleboy/shs-action@master
+        uses: appleboy/ssh-action@master
         env:
           DOCROOT: ${{ secrets.DOCROOT }}
           REPO_URL: ${{ secrets.REPO_URL }}
